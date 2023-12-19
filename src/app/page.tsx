@@ -1,7 +1,9 @@
-import Header from '@/components/Header'
+import KakaoMap from "@/components/KakaoMap";
 
 export default function Home() {
   return (
-    <Header />
+    <main>
+        <KakaoMap />
+    </main>
   )
 }
